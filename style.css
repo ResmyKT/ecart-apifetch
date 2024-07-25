@@ -1,0 +1,44 @@
+.navbar-brand{
+    color: rgb(241, 237, 240);
+  
+    font-weight: bolder;
+    text-shadow:2px 2px 1px #781872; 
+}
+.banner {
+
+    height: 35rem;
+    background: url(./img/shopping-online-on-phone-paper-art-modern-pink-background-gifts-box-free-vector.jpg) ;
+    background-size: cover;
+  }
+  .banner h1{
+    padding-top: 300px;
+    padding-left: 100px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-weight: bolder;
+    text-shadow:4px 4px 4px #000000; 
+  }
+  #product-list{
+    transform: translateY(-110px);
+    
+    padding-top: 80px;
+  }
+body{
+    background: #ac7f98;
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
+  }
+  li{
+    font-weight: bold;
+  }
+  .card{
+    height: 390px;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 4px 4px 6px rgb(239, 237, 237);
+  }
+  .card img{
+    background: #450438;
+  }
